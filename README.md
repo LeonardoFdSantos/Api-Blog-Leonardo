@@ -5,16 +5,21 @@
 
 ## Configs para setup
 
+Para subir os servidor em docker, foi utilizado o comando:
+
+    docker run --name mongodb -p 27017:27017 -d mongo:tag
+
+E para subir o servidor no seu pc, pelo npm ou yarn:
 
     npm install
-or
+ou
 
     yarn install
 
-E para iniciar o servidor nodemon
+E para iniciar o servidor nodemon:
 
     npm run dev
 
-or
+ou
 
     yarn dev
